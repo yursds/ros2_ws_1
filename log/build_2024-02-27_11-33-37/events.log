@@ -1,0 +1,122 @@
+[0.000000] (-) TimerEvent: {}
+[0.000418] (-) JobUnselected: {'identifier': 'my_package'}
+[0.000489] (cpp_pubsub) JobQueued: {'identifier': 'cpp_pubsub', 'dependencies': OrderedDict()}
+[0.000524] (cpp_pubsub) JobStarted: {'identifier': 'cpp_pubsub'}
+[0.029214] (cpp_pubsub) JobProgress: {'identifier': 'cpp_pubsub', 'progress': 'cmake'}
+[0.029706] (cpp_pubsub) Command: {'cmd': ['/usr/bin/cmake', '/home/yurs/ros2_ws/src/cpp_pubsub', '-DCMAKE_INSTALL_PREFIX=/home/yurs/ros2_ws/install/cpp_pubsub'], 'cwd': '/home/yurs/ros2_ws/build/cpp_pubsub', 'env': OrderedDict([('HISTFILESIZE', '2000'), ('NV_CUDA_COMPAT_PACKAGE', 'cuda-compat-12-1'), ('USER', 'yurs'), ('HOSTNAME', 'caosmachina'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/local/nvidia/lib:/usr/local/nvidia/lib64'), ('HOME', '/home/yurs'), ('OLDPWD', '/home/yurs/ros2_ws/src'), ('ROS_PYTHON_VERSION', '3'), ('CUDA_VERSION', '12.1.1'), ('_colcon_cd_root', '/opt/ros/humble/'), ('COLCON_PREFIX_PATH', '/home/yurs/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('NVIDIA_REQUIRE_CUDA', 'cuda>=12.1 brand=tesla,driver>=450,driver<451 brand=tesla,driver>=470,driver<471     brand=unknown,driver>=470,driver<471 brand=nvidia,driver>=470,driver<471 brand=nvidiartx,driver>=470,     driver<471 brand=geforce,driver>=470,driver<471 brand=geforcertx,driver>=470,driver<471 brand=quadro,     driver>=470,driver<471 brand=quadrortx,driver>=470,driver<471 brand=titan,driver>=470,driver<471     brand=titanrtx,driver>=470,driver<471 brand=tesla,driver>=510,driver<511 brand=unknown,driver>=510,    driver<511 brand=nvidia,driver>=510,driver<511 brand=nvidiartx,driver>=510,driver<511 brand=geforce,     driver>=510,driver<511 brand=geforcertx,driver>=510,driver<511 brand=quadro,driver>=510,driver<511     brand=quadrortx,driver>=510,driver<511 brand=titan,driver>=510,driver<511 brand=titanrtx,driver>=510,    driver<511 brand=tesla,driver>=515,driver<516 brand=unknown,driver>=515,driver<516 brand=nvidia,driver>=515,    driver<516 brand=nvidiartx,driver>=515,driver<516 brand=geforce,driver>=515,driver<516 brand=geforcertx,    driver>=515,driver<516 brand=quadro,driver>=515,driver<516 brand=quadrortx,driver>=515,driver<516 brand=titan,    driver>=515,driver<516 brand=titanrtx,driver>=515,driver<516 brand=tesla,driver>=525,driver<526 brand=unknown,    driver>=525,driver<526 brand=nvidia,driver>=525,driver<526 brand=nvidiartx,driver>=525,driver<526 brand=geforce,    driver>=525,driver<526 brand=geforcertx,driver>=525,driver<526 brand=quadro,driver>=525,driver<526 brand=quadrortx,    driver>=525,driver<526 brand=titan,driver>=525,driver<526 brand=titanrtx,driver>=525,driver<526'), ('PULSE_SERVER', 'unix:/run/user/1001/pulse/native'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('NVIDIA_DRIVER_CAPABILITIES', 'compute,graphics,utility'), ('TERM', 'xterm'), ('NV_CUDA_CUDART_VERSION', '12.1.105-1'), ('ROS_LOCALHOST_ONLY', '0'), ('QT_X11_NO_MITSHM', '1'), ('PATH', '/opt/ros/humble/bin:/usr/local/nvidia/bin:/usr/local/cuda/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('NVARCH', 'x86_64'), ('DISPLAY', ':1'), ('LANG', 'C.UTF-8'), ('XAUTHORITY', '/tmp/.docker.xauth'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/yurs/ros2_ws/install/my_package:/opt/ros/humble'), ('DEBIAN_FRONTEND', 'noninteractive'), ('PWD', '/home/yurs/ros2_ws/build/cpp_pubsub'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('NVIDIA_VISIBLE_DEVICES', 'all'), ('HISTFILE', '/home/yurs/.bash_history'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/yurs/ros2_ws/install/my_package:/opt/ros/humble')]), 'shell': False}
+[0.039735] (cpp_pubsub) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.7 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.099915] (-) TimerEvent: {}
+[0.124027] (cpp_pubsub) StdoutLine: {'line': b'-- Found rclcpp: 16.0.8 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[0.142696] (cpp_pubsub) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.144213] (cpp_pubsub) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.148138] (cpp_pubsub) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.155040] (cpp_pubsub) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.165156] (cpp_pubsub) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.200049] (-) TimerEvent: {}
+[0.202929] (cpp_pubsub) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[0.203826] (cpp_pubsub) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.297495] (cpp_pubsub) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[0.300202] (-) TimerEvent: {}
+[0.392519] (cpp_pubsub) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.10 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[0.400366] (-) TimerEvent: {}
+[0.435937] (cpp_pubsub) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[0.436103] (cpp_pubsub) StdoutLine: {'line': b'-- Configured cppcheck include dirs: \n'}
+[0.436155] (cpp_pubsub) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[0.436438] (cpp_pubsub) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[0.437157] (cpp_pubsub) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[0.437207] (cpp_pubsub) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[0.437474] (cpp_pubsub) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[0.438005] (cpp_pubsub) StdoutLine: {'line': b'-- Configuring done\n'}
+[0.445840] (cpp_pubsub) StdoutLine: {'line': b'-- Generating done\n'}
+[0.446705] (cpp_pubsub) StdoutLine: {'line': b'-- Build files have been written to: /home/yurs/ros2_ws/build/cpp_pubsub\n'}
+[0.451539] (cpp_pubsub) CommandEnded: {'returncode': 0}
+[0.451884] (cpp_pubsub) JobProgress: {'identifier': 'cpp_pubsub', 'progress': 'build'}
+[0.452020] (cpp_pubsub) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/yurs/ros2_ws/build/cpp_pubsub', '--', '-j8', '-l8'], 'cwd': '/home/yurs/ros2_ws/build/cpp_pubsub', 'env': OrderedDict([('HISTFILESIZE', '2000'), ('NV_CUDA_COMPAT_PACKAGE', 'cuda-compat-12-1'), ('USER', 'yurs'), ('HOSTNAME', 'caosmachina'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/local/nvidia/lib:/usr/local/nvidia/lib64'), ('HOME', '/home/yurs'), ('OLDPWD', '/home/yurs/ros2_ws/src'), ('ROS_PYTHON_VERSION', '3'), ('CUDA_VERSION', '12.1.1'), ('_colcon_cd_root', '/opt/ros/humble/'), ('COLCON_PREFIX_PATH', '/home/yurs/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('NVIDIA_REQUIRE_CUDA', 'cuda>=12.1 brand=tesla,driver>=450,driver<451 brand=tesla,driver>=470,driver<471     brand=unknown,driver>=470,driver<471 brand=nvidia,driver>=470,driver<471 brand=nvidiartx,driver>=470,     driver<471 brand=geforce,driver>=470,driver<471 brand=geforcertx,driver>=470,driver<471 brand=quadro,     driver>=470,driver<471 brand=quadrortx,driver>=470,driver<471 brand=titan,driver>=470,driver<471     brand=titanrtx,driver>=470,driver<471 brand=tesla,driver>=510,driver<511 brand=unknown,driver>=510,    driver<511 brand=nvidia,driver>=510,driver<511 brand=nvidiartx,driver>=510,driver<511 brand=geforce,     driver>=510,driver<511 brand=geforcertx,driver>=510,driver<511 brand=quadro,driver>=510,driver<511     brand=quadrortx,driver>=510,driver<511 brand=titan,driver>=510,driver<511 brand=titanrtx,driver>=510,    driver<511 brand=tesla,driver>=515,driver<516 brand=unknown,driver>=515,driver<516 brand=nvidia,driver>=515,    driver<516 brand=nvidiartx,driver>=515,driver<516 brand=geforce,driver>=515,driver<516 brand=geforcertx,    driver>=515,driver<516 brand=quadro,driver>=515,driver<516 brand=quadrortx,driver>=515,driver<516 brand=titan,    driver>=515,driver<516 brand=titanrtx,driver>=515,driver<516 brand=tesla,driver>=525,driver<526 brand=unknown,    driver>=525,driver<526 brand=nvidia,driver>=525,driver<526 brand=nvidiartx,driver>=525,driver<526 brand=geforce,    driver>=525,driver<526 brand=geforcertx,driver>=525,driver<526 brand=quadro,driver>=525,driver<526 brand=quadrortx,    driver>=525,driver<526 brand=titan,driver>=525,driver<526 brand=titanrtx,driver>=525,driver<526'), ('PULSE_SERVER', 'unix:/run/user/1001/pulse/native'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('NVIDIA_DRIVER_CAPABILITIES', 'compute,graphics,utility'), ('TERM', 'xterm'), ('NV_CUDA_CUDART_VERSION', '12.1.105-1'), ('ROS_LOCALHOST_ONLY', '0'), ('QT_X11_NO_MITSHM', '1'), ('PATH', '/opt/ros/humble/bin:/usr/local/nvidia/bin:/usr/local/cuda/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('NVARCH', 'x86_64'), ('DISPLAY', ':1'), ('LANG', 'C.UTF-8'), ('XAUTHORITY', '/tmp/.docker.xauth'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/yurs/ros2_ws/install/my_package:/opt/ros/humble'), ('DEBIAN_FRONTEND', 'noninteractive'), ('PWD', '/home/yurs/ros2_ws/build/cpp_pubsub'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('NVIDIA_VISIBLE_DEVICES', 'all'), ('HISTFILE', '/home/yurs/.bash_history'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/yurs/ros2_ws/install/my_package:/opt/ros/humble')]), 'shell': False}
+[0.486383] (cpp_pubsub) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/listener.dir/src/subscriber_member_function.cpp.o\x1b[0m\n'}
+[0.486575] (cpp_pubsub) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/talker.dir/src/publisher_member_function.cpp.o\x1b[0m\n'}
+[0.500560] (-) TimerEvent: {}
+[0.600877] (-) TimerEvent: {}
+[0.701163] (-) TimerEvent: {}
+[0.801471] (-) TimerEvent: {}
+[0.901884] (-) TimerEvent: {}
+[1.002279] (-) TimerEvent: {}
+[1.102686] (-) TimerEvent: {}
+[1.203097] (-) TimerEvent: {}
+[1.303502] (-) TimerEvent: {}
+[1.403886] (-) TimerEvent: {}
+[1.504279] (-) TimerEvent: {}
+[1.604675] (-) TimerEvent: {}
+[1.705070] (-) TimerEvent: {}
+[1.805398] (-) TimerEvent: {}
+[1.905728] (-) TimerEvent: {}
+[2.006067] (-) TimerEvent: {}
+[2.106395] (-) TimerEvent: {}
+[2.206709] (-) TimerEvent: {}
+[2.307126] (-) TimerEvent: {}
+[2.407438] (-) TimerEvent: {}
+[2.507737] (-) TimerEvent: {}
+[2.608106] (-) TimerEvent: {}
+[2.708457] (-) TimerEvent: {}
+[2.808739] (-) TimerEvent: {}
+[2.909116] (-) TimerEvent: {}
+[3.009496] (-) TimerEvent: {}
+[3.109756] (-) TimerEvent: {}
+[3.210139] (-) TimerEvent: {}
+[3.310405] (-) TimerEvent: {}
+[3.335542] (cpp_pubsub) StdoutLine: {'line': b'[ 75%] \x1b[32m\x1b[1mLinking CXX executable talker\x1b[0m\n'}
+[3.410509] (-) TimerEvent: {}
+[3.462429] (cpp_pubsub) StdoutLine: {'line': b'[ 75%] Built target talker\n'}
+[3.510627] (-) TimerEvent: {}
+[3.610891] (-) TimerEvent: {}
+[3.711171] (-) TimerEvent: {}
+[3.811424] (-) TimerEvent: {}
+[3.911766] (-) TimerEvent: {}
+[4.012081] (-) TimerEvent: {}
+[4.112448] (-) TimerEvent: {}
+[4.212798] (-) TimerEvent: {}
+[4.313207] (-) TimerEvent: {}
+[4.413471] (-) TimerEvent: {}
+[4.513738] (-) TimerEvent: {}
+[4.614025] (-) TimerEvent: {}
+[4.714316] (-) TimerEvent: {}
+[4.814769] (-) TimerEvent: {}
+[4.915107] (-) TimerEvent: {}
+[5.015453] (-) TimerEvent: {}
+[5.115829] (-) TimerEvent: {}
+[5.216210] (-) TimerEvent: {}
+[5.316597] (-) TimerEvent: {}
+[5.416887] (-) TimerEvent: {}
+[5.517234] (-) TimerEvent: {}
+[5.617575] (-) TimerEvent: {}
+[5.694836] (cpp_pubsub) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable listener\x1b[0m\n'}
+[5.717706] (-) TimerEvent: {}
+[5.818003] (-) TimerEvent: {}
+[5.918378] (-) TimerEvent: {}
+[5.939586] (cpp_pubsub) StdoutLine: {'line': b'[100%] Built target listener\n'}
+[5.947362] (cpp_pubsub) CommandEnded: {'returncode': 0}
+[5.966980] (cpp_pubsub) JobProgress: {'identifier': 'cpp_pubsub', 'progress': 'install'}
+[5.972498] (cpp_pubsub) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/yurs/ros2_ws/build/cpp_pubsub'], 'cwd': '/home/yurs/ros2_ws/build/cpp_pubsub', 'env': OrderedDict([('HISTFILESIZE', '2000'), ('NV_CUDA_COMPAT_PACKAGE', 'cuda-compat-12-1'), ('USER', 'yurs'), ('HOSTNAME', 'caosmachina'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/local/nvidia/lib:/usr/local/nvidia/lib64'), ('HOME', '/home/yurs'), ('OLDPWD', '/home/yurs/ros2_ws/src'), ('ROS_PYTHON_VERSION', '3'), ('CUDA_VERSION', '12.1.1'), ('_colcon_cd_root', '/opt/ros/humble/'), ('COLCON_PREFIX_PATH', '/home/yurs/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('NVIDIA_REQUIRE_CUDA', 'cuda>=12.1 brand=tesla,driver>=450,driver<451 brand=tesla,driver>=470,driver<471     brand=unknown,driver>=470,driver<471 brand=nvidia,driver>=470,driver<471 brand=nvidiartx,driver>=470,     driver<471 brand=geforce,driver>=470,driver<471 brand=geforcertx,driver>=470,driver<471 brand=quadro,     driver>=470,driver<471 brand=quadrortx,driver>=470,driver<471 brand=titan,driver>=470,driver<471     brand=titanrtx,driver>=470,driver<471 brand=tesla,driver>=510,driver<511 brand=unknown,driver>=510,    driver<511 brand=nvidia,driver>=510,driver<511 brand=nvidiartx,driver>=510,driver<511 brand=geforce,     driver>=510,driver<511 brand=geforcertx,driver>=510,driver<511 brand=quadro,driver>=510,driver<511     brand=quadrortx,driver>=510,driver<511 brand=titan,driver>=510,driver<511 brand=titanrtx,driver>=510,    driver<511 brand=tesla,driver>=515,driver<516 brand=unknown,driver>=515,driver<516 brand=nvidia,driver>=515,    driver<516 brand=nvidiartx,driver>=515,driver<516 brand=geforce,driver>=515,driver<516 brand=geforcertx,    driver>=515,driver<516 brand=quadro,driver>=515,driver<516 brand=quadrortx,driver>=515,driver<516 brand=titan,    driver>=515,driver<516 brand=titanrtx,driver>=515,driver<516 brand=tesla,driver>=525,driver<526 brand=unknown,    driver>=525,driver<526 brand=nvidia,driver>=525,driver<526 brand=nvidiartx,driver>=525,driver<526 brand=geforce,    driver>=525,driver<526 brand=geforcertx,driver>=525,driver<526 brand=quadro,driver>=525,driver<526 brand=quadrortx,    driver>=525,driver<526 brand=titan,driver>=525,driver<526 brand=titanrtx,driver>=525,driver<526'), ('PULSE_SERVER', 'unix:/run/user/1001/pulse/native'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('NVIDIA_DRIVER_CAPABILITIES', 'compute,graphics,utility'), ('TERM', 'xterm'), ('NV_CUDA_CUDART_VERSION', '12.1.105-1'), ('ROS_LOCALHOST_ONLY', '0'), ('QT_X11_NO_MITSHM', '1'), ('PATH', '/opt/ros/humble/bin:/usr/local/nvidia/bin:/usr/local/cuda/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('NVARCH', 'x86_64'), ('DISPLAY', ':1'), ('LANG', 'C.UTF-8'), ('XAUTHORITY', '/tmp/.docker.xauth'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/yurs/ros2_ws/install/my_package:/opt/ros/humble'), ('DEBIAN_FRONTEND', 'noninteractive'), ('PWD', '/home/yurs/ros2_ws/build/cpp_pubsub'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('NVIDIA_VISIBLE_DEVICES', 'all'), ('HISTFILE', '/home/yurs/.bash_history'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/yurs/ros2_ws/install/my_package:/opt/ros/humble')]), 'shell': False}
+[5.977757] (cpp_pubsub) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[5.977894] (cpp_pubsub) StdoutLine: {'line': b'-- Installing: /home/yurs/ros2_ws/install/cpp_pubsub/lib/cpp_pubsub/talker\n'}
+[5.978796] (cpp_pubsub) StdoutLine: {'line': b'-- Set runtime path of "/home/yurs/ros2_ws/install/cpp_pubsub/lib/cpp_pubsub/talker" to ""\n'}
+[5.978846] (cpp_pubsub) StdoutLine: {'line': b'-- Installing: /home/yurs/ros2_ws/install/cpp_pubsub/lib/cpp_pubsub/listener\n'}
+[5.981158] (cpp_pubsub) StdoutLine: {'line': b'-- Set runtime path of "/home/yurs/ros2_ws/install/cpp_pubsub/lib/cpp_pubsub/listener" to ""\n'}
+[5.981376] (cpp_pubsub) StdoutLine: {'line': b'-- Installing: /home/yurs/ros2_ws/install/cpp_pubsub/share/ament_index/resource_index/package_run_dependencies/cpp_pubsub\n'}
+[5.981544] (cpp_pubsub) StdoutLine: {'line': b'-- Installing: /home/yurs/ros2_ws/install/cpp_pubsub/share/ament_index/resource_index/parent_prefix_path/cpp_pubsub\n'}
+[5.981725] (cpp_pubsub) StdoutLine: {'line': b'-- Installing: /home/yurs/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/environment/ament_prefix_path.sh\n'}
+[5.981842] (cpp_pubsub) StdoutLine: {'line': b'-- Installing: /home/yurs/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/environment/ament_prefix_path.dsv\n'}
+[5.981908] (cpp_pubsub) StdoutLine: {'line': b'-- Installing: /home/yurs/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/environment/path.sh\n'}
+[5.981973] (cpp_pubsub) StdoutLine: {'line': b'-- Installing: /home/yurs/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/environment/path.dsv\n'}
+[5.982084] (cpp_pubsub) StdoutLine: {'line': b'-- Installing: /home/yurs/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/local_setup.bash\n'}
+[5.982195] (cpp_pubsub) StdoutLine: {'line': b'-- Installing: /home/yurs/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/local_setup.sh\n'}
+[5.982318] (cpp_pubsub) StdoutLine: {'line': b'-- Installing: /home/yurs/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/local_setup.zsh\n'}
+[5.982437] (cpp_pubsub) StdoutLine: {'line': b'-- Installing: /home/yurs/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/local_setup.dsv\n'}
+[5.982553] (cpp_pubsub) StdoutLine: {'line': b'-- Installing: /home/yurs/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/package.dsv\n'}
+[5.982707] (cpp_pubsub) StdoutLine: {'line': b'-- Installing: /home/yurs/ros2_ws/install/cpp_pubsub/share/ament_index/resource_index/packages/cpp_pubsub\n'}
+[5.982823] (cpp_pubsub) StdoutLine: {'line': b'-- Installing: /home/yurs/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/cmake/cpp_pubsubConfig.cmake\n'}
+[5.982913] (cpp_pubsub) StdoutLine: {'line': b'-- Installing: /home/yurs/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/cmake/cpp_pubsubConfig-version.cmake\n'}
+[5.983011] (cpp_pubsub) StdoutLine: {'line': b'-- Installing: /home/yurs/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/package.xml\n'}
+[5.984194] (cpp_pubsub) CommandEnded: {'returncode': 0}
+[6.018477] (-) TimerEvent: {}
+[6.051989] (cpp_pubsub) JobEnded: {'identifier': 'cpp_pubsub', 'rc': 0}
+[6.052493] (-) EventReactorShutdown: {}

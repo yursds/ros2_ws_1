@@ -1,0 +1,292 @@
+[0.000000] (-) TimerEvent: {}
+[0.000528] (-) JobUnselected: {'identifier': 'my_package'}
+[0.000666] (cpp_pubsub) JobQueued: {'identifier': 'cpp_pubsub', 'dependencies': OrderedDict()}
+[0.000721] (cpp_pubsub) JobStarted: {'identifier': 'cpp_pubsub'}
+[0.028605] (cpp_pubsub) JobProgress: {'identifier': 'cpp_pubsub', 'progress': 'cmake'}
+[0.029643] (cpp_pubsub) JobProgress: {'identifier': 'cpp_pubsub', 'progress': 'build'}
+[0.029687] (cpp_pubsub) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/yurs/ros2_ws/build/cpp_pubsub', '--', '-j8', '-l8'], 'cwd': '/home/yurs/ros2_ws/build/cpp_pubsub', 'env': OrderedDict([('HISTFILESIZE', '2000'), ('NV_CUDA_COMPAT_PACKAGE', 'cuda-compat-12-1'), ('USER', 'yurs'), ('HOSTNAME', 'caosmachina'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/local/nvidia/lib:/usr/local/nvidia/lib64'), ('HOME', '/home/yurs'), ('OLDPWD', '/home/yurs/ros2_ws/src'), ('ROS_PYTHON_VERSION', '3'), ('CUDA_VERSION', '12.1.1'), ('_colcon_cd_root', '/opt/ros/humble/'), ('COLCON_PREFIX_PATH', '/home/yurs/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('NVIDIA_REQUIRE_CUDA', 'cuda>=12.1 brand=tesla,driver>=450,driver<451 brand=tesla,driver>=470,driver<471     brand=unknown,driver>=470,driver<471 brand=nvidia,driver>=470,driver<471 brand=nvidiartx,driver>=470,     driver<471 brand=geforce,driver>=470,driver<471 brand=geforcertx,driver>=470,driver<471 brand=quadro,     driver>=470,driver<471 brand=quadrortx,driver>=470,driver<471 brand=titan,driver>=470,driver<471     brand=titanrtx,driver>=470,driver<471 brand=tesla,driver>=510,driver<511 brand=unknown,driver>=510,    driver<511 brand=nvidia,driver>=510,driver<511 brand=nvidiartx,driver>=510,driver<511 brand=geforce,     driver>=510,driver<511 brand=geforcertx,driver>=510,driver<511 brand=quadro,driver>=510,driver<511     brand=quadrortx,driver>=510,driver<511 brand=titan,driver>=510,driver<511 brand=titanrtx,driver>=510,    driver<511 brand=tesla,driver>=515,driver<516 brand=unknown,driver>=515,driver<516 brand=nvidia,driver>=515,    driver<516 brand=nvidiartx,driver>=515,driver<516 brand=geforce,driver>=515,driver<516 brand=geforcertx,    driver>=515,driver<516 brand=quadro,driver>=515,driver<516 brand=quadrortx,driver>=515,driver<516 brand=titan,    driver>=515,driver<516 brand=titanrtx,driver>=515,driver<516 brand=tesla,driver>=525,driver<526 brand=unknown,    driver>=525,driver<526 brand=nvidia,driver>=525,driver<526 brand=nvidiartx,driver>=525,driver<526 brand=geforce,    driver>=525,driver<526 brand=geforcertx,driver>=525,driver<526 brand=quadro,driver>=525,driver<526 brand=quadrortx,    driver>=525,driver<526 brand=titan,driver>=525,driver<526 brand=titanrtx,driver>=525,driver<526'), ('PULSE_SERVER', 'unix:/run/user/1001/pulse/native'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('NVIDIA_DRIVER_CAPABILITIES', 'compute,graphics,utility'), ('TERM', 'xterm'), ('NV_CUDA_CUDART_VERSION', '12.1.105-1'), ('ROS_LOCALHOST_ONLY', '0'), ('QT_X11_NO_MITSHM', '1'), ('PATH', '/opt/ros/humble/bin:/usr/local/nvidia/bin:/usr/local/cuda/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('NVARCH', 'x86_64'), ('DISPLAY', ':1'), ('LANG', 'C.UTF-8'), ('XAUTHORITY', '/tmp/.docker.xauth'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/yurs/ros2_ws/install/cpp_pubsub:/home/yurs/ros2_ws/install/my_package:/opt/ros/humble'), ('DEBIAN_FRONTEND', 'noninteractive'), ('PWD', '/home/yurs/ros2_ws/build/cpp_pubsub'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('NVIDIA_VISIBLE_DEVICES', 'all'), ('HISTFILE', '/home/yurs/.bash_history'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/yurs/ros2_ws/install/cpp_pubsub:/home/yurs/ros2_ws/install/my_package:/opt/ros/humble')]), 'shell': False}
+[0.048201] (cpp_pubsub) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.7 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.087062] (cpp_pubsub) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter \n'}
+[0.099826] (-) TimerEvent: {}
+[0.130459] (cpp_pubsub) StdoutLine: {'line': b'-- Found rclcpp: 16.0.8 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[0.148852] (cpp_pubsub) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.150361] (cpp_pubsub) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.154118] (cpp_pubsub) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.160664] (cpp_pubsub) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.170082] (cpp_pubsub) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.199953] (-) TimerEvent: {}
+[0.205640] (cpp_pubsub) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[0.206498] (cpp_pubsub) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.300140] (-) TimerEvent: {}
+[0.300393] (cpp_pubsub) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[0.400334] (-) TimerEvent: {}
+[0.401637] (cpp_pubsub) StdoutLine: {'line': b'-- pinocchio FOUND. pinocchio at /opt/ros/humble/lib/x86_64-linux-gnu/libpinocchio.so\n'}
+[0.401827] (cpp_pubsub) StdoutLine: {'line': b'-- boost_filesystem FOUND. boost_filesystem at /lib/x86_64-linux-gnu/libboost_filesystem.so\n'}
+[0.401945] (cpp_pubsub) StdoutLine: {'line': b'-- boost_serialization FOUND. boost_serialization at /lib/x86_64-linux-gnu/libboost_serialization.so\n'}
+[0.402018] (cpp_pubsub) StdoutLine: {'line': b'-- boost_system FOUND. boost_system at /lib/x86_64-linux-gnu/libboost_system.so\n'}
+[0.407659] (cpp_pubsub) StdoutLine: {'line': b'-- Found Boost: /usr/include (found version "1.74.0") found components: filesystem serialization system \n'}
+[0.408355] (cpp_pubsub) StdoutLine: {'line': b'-- eigenpy FOUND. eigenpy at /opt/ros/humble/lib/x86_64-linux-gnu/libeigenpy.so\n'}
+[0.500434] (-) TimerEvent: {}
+[0.596190] (cpp_pubsub) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter Development.Module NumPy \n'}
+[0.596412] (cpp_pubsub) StdoutLine: {'line': b'-- PythonLibraryDirs: \n'}
+[0.596468] (cpp_pubsub) StdoutLine: {'line': b'-- PythonLibVersionString: 3.10.12\n'}
+[0.600509] (-) TimerEvent: {}
+[0.612548] (cpp_pubsub) StdoutLine: {'line': b'-- Python site lib: lib/python3.10/dist-packages\n'}
+[0.612673] (cpp_pubsub) StdoutLine: {'line': b'-- Python include dirs: /usr/include/python3.10\n'}
+[0.631910] (cpp_pubsub) StdoutLine: {'line': b'-- Checking for NumPy\n'}
+[0.699383] (cpp_pubsub) StdoutLine: {'line': b'--   NUMPY_INCLUDE_DIRS=/usr/lib/python3/dist-packages/numpy/core/include\n'}
+[0.700588] (-) TimerEvent: {}
+[0.766834] (cpp_pubsub) StdoutLine: {'line': b'--   NUMPY_VERSION=1.21.5\n'}
+[0.766990] (cpp_pubsub) StdoutLine: {'line': b'-- NumPy include dir: /usr/lib/python3/dist-packages/numpy/core/include\n'}
+[0.770309] (cpp_pubsub) StderrLine: {'line': b'\x1b[33mCMake Warning at /usr/share/cmake-3.22/Modules/FindBoost.cmake:2201 (message):\n'}
+[0.770523] (cpp_pubsub) StderrLine: {'line': b'  No header defined for python310; skipping header check (note: header-only\n'}
+[0.770574] (cpp_pubsub) StderrLine: {'line': b'  libraries have no designated component)\n'}
+[0.770614] (cpp_pubsub) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[0.770660] (cpp_pubsub) StderrLine: {'line': b'  /opt/ros/humble/lib/x86_64-linux-gnu/cmake/eigenpy/boost.cmake:144 (find_package)\n'}
+[0.770703] (cpp_pubsub) StderrLine: {'line': b'  /opt/ros/humble/lib/x86_64-linux-gnu/cmake/eigenpy/eigenpyConfig.cmake:149 (SEARCH_FOR_BOOST_PYTHON)\n'}
+[0.770743] (cpp_pubsub) StderrLine: {'line': b'  /usr/share/cmake-3.22/Modules/CMakeFindDependencyMacro.cmake:47 (find_package)\n'}
+[0.770782] (cpp_pubsub) StderrLine: {'line': b'  /opt/ros/humble/lib/x86_64-linux-gnu/cmake/pinocchio/pinocchioConfig.cmake:160 (find_dependency)\n'}
+[0.770820] (cpp_pubsub) StderrLine: {'line': b'  CMakeLists.txt:12 (find_package)\n'}
+[0.770860] (cpp_pubsub) StderrLine: {'line': b'\n'}
+[0.770899] (cpp_pubsub) StderrLine: {'line': b'\x1b[0m\n'}
+[0.770940] (cpp_pubsub) StdoutLine: {'line': b'-- Found Boost: /usr/include (found version "1.74.0") found components: python310 \n'}
+[0.771011] (cpp_pubsub) StdoutLine: {'line': b'-- Boost_PYTHON_LIBRARY: /usr/lib/x86_64-linux-gnu/libboost_python310.so\n'}
+[0.800791] (-) TimerEvent: {}
+[0.901190] (-) TimerEvent: {}
+[0.970935] (cpp_pubsub) StdoutLine: {'line': b'-- Default C++ standard: 201703\n'}
+[0.971124] (cpp_pubsub) StdoutLine: {'line': b'-- C++ standard sufficient: Minimal required 11, currently defined: 17\n'}
+[0.971199] (cpp_pubsub) StdoutLine: {'line': b'-- CMAKE_CXX_STANDARD was not set: automatically set to currently defined standard 17\n'}
+[0.971621] (cpp_pubsub) StdoutLine: {'line': b'-- hpp-fcl FOUND. hpp-fcl at /opt/ros/humble/lib/x86_64-linux-gnu/libhpp-fcl.so\n'}
+[0.975799] (cpp_pubsub) StdoutLine: {'line': b'-- Found Boost: /usr/include (found version "1.74.0") found components: chrono serialization \n'}
+[0.976731] (cpp_pubsub) StdoutLine: {'line': b'-- C++ standard sufficient: Minimal required 11, currently defined: 17\n'}
+[0.977240] (cpp_pubsub) StdoutLine: {'line': b'-- C++ standard sufficient: Minimal required 11, currently defined: 17\n'}
+[0.977734] (cpp_pubsub) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.10 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[1.001281] (-) TimerEvent: {}
+[1.022922] (cpp_pubsub) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[1.023060] (cpp_pubsub) StdoutLine: {'line': b'-- Configured cppcheck include dirs: \n'}
+[1.023106] (cpp_pubsub) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[1.023280] (cpp_pubsub) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[1.023983] (cpp_pubsub) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[1.024025] (cpp_pubsub) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[1.024211] (cpp_pubsub) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[1.024733] (cpp_pubsub) StdoutLine: {'line': b'-- Configuring done\n'}
+[1.034140] (cpp_pubsub) StdoutLine: {'line': b'-- Generating done\n'}
+[1.035312] (cpp_pubsub) StdoutLine: {'line': b'-- Build files have been written to: /home/yurs/ros2_ws/build/cpp_pubsub\n'}
+[1.054042] (cpp_pubsub) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target listener\x1b[0m\n'}
+[1.054202] (cpp_pubsub) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target talker\x1b[0m\n'}
+[1.067850] (cpp_pubsub) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/listener.dir/src/subscriber_member_function.cpp.o\x1b[0m\n'}
+[1.069090] (cpp_pubsub) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/talker.dir/src/publisher_member_function.cpp.o\x1b[0m\n'}
+[1.101390] (-) TimerEvent: {}
+[1.201697] (-) TimerEvent: {}
+[1.302099] (-) TimerEvent: {}
+[1.402429] (-) TimerEvent: {}
+[1.502783] (-) TimerEvent: {}
+[1.603160] (-) TimerEvent: {}
+[1.703583] (-) TimerEvent: {}
+[1.803977] (-) TimerEvent: {}
+[1.904356] (-) TimerEvent: {}
+[2.004670] (-) TimerEvent: {}
+[2.104995] (-) TimerEvent: {}
+[2.205319] (-) TimerEvent: {}
+[2.305610] (-) TimerEvent: {}
+[2.405887] (-) TimerEvent: {}
+[2.506266] (-) TimerEvent: {}
+[2.606650] (-) TimerEvent: {}
+[2.707008] (-) TimerEvent: {}
+[2.807385] (-) TimerEvent: {}
+[2.907737] (-) TimerEvent: {}
+[3.008091] (-) TimerEvent: {}
+[3.108454] (-) TimerEvent: {}
+[3.208823] (-) TimerEvent: {}
+[3.309103] (-) TimerEvent: {}
+[3.409380] (-) TimerEvent: {}
+[3.509662] (-) TimerEvent: {}
+[3.609975] (-) TimerEvent: {}
+[3.710360] (-) TimerEvent: {}
+[3.810735] (-) TimerEvent: {}
+[3.911118] (-) TimerEvent: {}
+[4.011441] (-) TimerEvent: {}
+[4.111775] (-) TimerEvent: {}
+[4.212153] (-) TimerEvent: {}
+[4.312488] (-) TimerEvent: {}
+[4.412836] (-) TimerEvent: {}
+[4.513192] (-) TimerEvent: {}
+[4.613504] (-) TimerEvent: {}
+[4.713805] (-) TimerEvent: {}
+[4.814120] (-) TimerEvent: {}
+[4.914426] (-) TimerEvent: {}
+[5.014746] (-) TimerEvent: {}
+[5.115044] (-) TimerEvent: {}
+[5.215367] (-) TimerEvent: {}
+[5.315704] (-) TimerEvent: {}
+[5.416041] (-) TimerEvent: {}
+[5.516347] (-) TimerEvent: {}
+[5.616650] (-) TimerEvent: {}
+[5.716947] (-) TimerEvent: {}
+[5.817279] (-) TimerEvent: {}
+[5.917583] (-) TimerEvent: {}
+[6.017890] (-) TimerEvent: {}
+[6.118205] (-) TimerEvent: {}
+[6.218565] (-) TimerEvent: {}
+[6.318940] (-) TimerEvent: {}
+[6.364787] (cpp_pubsub) StdoutLine: {'line': b'[ 75%] \x1b[32m\x1b[1mLinking CXX executable listener\x1b[0m\n'}
+[6.419129] (-) TimerEvent: {}
+[6.519481] (-) TimerEvent: {}
+[6.619827] (-) TimerEvent: {}
+[6.627767] (cpp_pubsub) StdoutLine: {'line': b'[ 75%] Built target listener\n'}
+[6.720015] (-) TimerEvent: {}
+[6.820374] (-) TimerEvent: {}
+[6.920756] (-) TimerEvent: {}
+[7.021158] (-) TimerEvent: {}
+[7.121524] (-) TimerEvent: {}
+[7.221872] (-) TimerEvent: {}
+[7.322207] (-) TimerEvent: {}
+[7.422560] (-) TimerEvent: {}
+[7.522957] (-) TimerEvent: {}
+[7.623314] (-) TimerEvent: {}
+[7.723665] (-) TimerEvent: {}
+[7.823940] (-) TimerEvent: {}
+[7.924387] (-) TimerEvent: {}
+[8.024790] (-) TimerEvent: {}
+[8.125076] (-) TimerEvent: {}
+[8.225422] (-) TimerEvent: {}
+[8.325717] (-) TimerEvent: {}
+[8.425984] (-) TimerEvent: {}
+[8.526300] (-) TimerEvent: {}
+[8.626572] (-) TimerEvent: {}
+[8.726908] (-) TimerEvent: {}
+[8.827144] (-) TimerEvent: {}
+[8.927426] (-) TimerEvent: {}
+[9.027764] (-) TimerEvent: {}
+[9.128082] (-) TimerEvent: {}
+[9.228427] (-) TimerEvent: {}
+[9.328772] (-) TimerEvent: {}
+[9.429061] (-) TimerEvent: {}
+[9.529362] (-) TimerEvent: {}
+[9.629640] (-) TimerEvent: {}
+[9.729987] (-) TimerEvent: {}
+[9.830340] (-) TimerEvent: {}
+[9.930722] (-) TimerEvent: {}
+[10.031068] (-) TimerEvent: {}
+[10.131442] (-) TimerEvent: {}
+[10.231836] (-) TimerEvent: {}
+[10.332186] (-) TimerEvent: {}
+[10.432574] (-) TimerEvent: {}
+[10.532926] (-) TimerEvent: {}
+[10.633239] (-) TimerEvent: {}
+[10.733512] (-) TimerEvent: {}
+[10.833829] (-) TimerEvent: {}
+[10.934165] (-) TimerEvent: {}
+[11.034507] (-) TimerEvent: {}
+[11.134781] (-) TimerEvent: {}
+[11.235139] (-) TimerEvent: {}
+[11.335508] (-) TimerEvent: {}
+[11.435851] (-) TimerEvent: {}
+[11.536288] (-) TimerEvent: {}
+[11.636631] (-) TimerEvent: {}
+[11.736968] (-) TimerEvent: {}
+[11.837288] (-) TimerEvent: {}
+[11.937584] (-) TimerEvent: {}
+[12.037957] (-) TimerEvent: {}
+[12.138305] (-) TimerEvent: {}
+[12.238645] (-) TimerEvent: {}
+[12.339005] (-) TimerEvent: {}
+[12.439306] (-) TimerEvent: {}
+[12.539674] (-) TimerEvent: {}
+[12.640022] (-) TimerEvent: {}
+[12.740382] (-) TimerEvent: {}
+[12.840732] (-) TimerEvent: {}
+[12.940996] (-) TimerEvent: {}
+[13.041245] (-) TimerEvent: {}
+[13.141569] (-) TimerEvent: {}
+[13.241879] (-) TimerEvent: {}
+[13.342185] (-) TimerEvent: {}
+[13.442455] (-) TimerEvent: {}
+[13.542848] (-) TimerEvent: {}
+[13.643194] (-) TimerEvent: {}
+[13.743533] (-) TimerEvent: {}
+[13.843930] (-) TimerEvent: {}
+[13.944306] (-) TimerEvent: {}
+[14.044570] (-) TimerEvent: {}
+[14.144926] (-) TimerEvent: {}
+[14.245232] (-) TimerEvent: {}
+[14.345589] (-) TimerEvent: {}
+[14.445875] (-) TimerEvent: {}
+[14.546266] (-) TimerEvent: {}
+[14.646615] (-) TimerEvent: {}
+[14.746938] (-) TimerEvent: {}
+[14.847267] (-) TimerEvent: {}
+[14.947612] (-) TimerEvent: {}
+[15.047993] (-) TimerEvent: {}
+[15.148362] (-) TimerEvent: {}
+[15.248716] (-) TimerEvent: {}
+[15.349009] (-) TimerEvent: {}
+[15.449384] (-) TimerEvent: {}
+[15.549731] (-) TimerEvent: {}
+[15.650053] (-) TimerEvent: {}
+[15.750425] (-) TimerEvent: {}
+[15.850778] (-) TimerEvent: {}
+[15.951126] (-) TimerEvent: {}
+[16.051506] (-) TimerEvent: {}
+[16.151879] (-) TimerEvent: {}
+[16.252141] (-) TimerEvent: {}
+[16.352494] (-) TimerEvent: {}
+[16.452857] (-) TimerEvent: {}
+[16.553123] (-) TimerEvent: {}
+[16.653428] (-) TimerEvent: {}
+[16.753723] (-) TimerEvent: {}
+[16.854044] (-) TimerEvent: {}
+[16.954398] (-) TimerEvent: {}
+[17.054735] (-) TimerEvent: {}
+[17.155061] (-) TimerEvent: {}
+[17.255371] (-) TimerEvent: {}
+[17.355696] (-) TimerEvent: {}
+[17.455992] (-) TimerEvent: {}
+[17.556295] (-) TimerEvent: {}
+[17.656592] (-) TimerEvent: {}
+[17.756904] (-) TimerEvent: {}
+[17.857210] (-) TimerEvent: {}
+[17.957580] (-) TimerEvent: {}
+[18.057992] (-) TimerEvent: {}
+[18.158375] (-) TimerEvent: {}
+[18.258759] (-) TimerEvent: {}
+[18.359139] (-) TimerEvent: {}
+[18.459504] (-) TimerEvent: {}
+[18.559858] (-) TimerEvent: {}
+[18.660224] (-) TimerEvent: {}
+[18.760545] (-) TimerEvent: {}
+[18.769662] (cpp_pubsub) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable talker\x1b[0m\n'}
+[18.860740] (-) TimerEvent: {}
+[18.961038] (-) TimerEvent: {}
+[19.061341] (-) TimerEvent: {}
+[19.161734] (-) TimerEvent: {}
+[19.262058] (-) TimerEvent: {}
+[19.362514] (-) TimerEvent: {}
+[19.408195] (cpp_pubsub) StdoutLine: {'line': b'[100%] Built target talker\n'}
+[19.414953] (cpp_pubsub) CommandEnded: {'returncode': 0}
+[19.433835] (cpp_pubsub) JobProgress: {'identifier': 'cpp_pubsub', 'progress': 'install'}
+[19.439506] (cpp_pubsub) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/yurs/ros2_ws/build/cpp_pubsub'], 'cwd': '/home/yurs/ros2_ws/build/cpp_pubsub', 'env': OrderedDict([('HISTFILESIZE', '2000'), ('NV_CUDA_COMPAT_PACKAGE', 'cuda-compat-12-1'), ('USER', 'yurs'), ('HOSTNAME', 'caosmachina'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/local/nvidia/lib:/usr/local/nvidia/lib64'), ('HOME', '/home/yurs'), ('OLDPWD', '/home/yurs/ros2_ws/src'), ('ROS_PYTHON_VERSION', '3'), ('CUDA_VERSION', '12.1.1'), ('_colcon_cd_root', '/opt/ros/humble/'), ('COLCON_PREFIX_PATH', '/home/yurs/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('NVIDIA_REQUIRE_CUDA', 'cuda>=12.1 brand=tesla,driver>=450,driver<451 brand=tesla,driver>=470,driver<471     brand=unknown,driver>=470,driver<471 brand=nvidia,driver>=470,driver<471 brand=nvidiartx,driver>=470,     driver<471 brand=geforce,driver>=470,driver<471 brand=geforcertx,driver>=470,driver<471 brand=quadro,     driver>=470,driver<471 brand=quadrortx,driver>=470,driver<471 brand=titan,driver>=470,driver<471     brand=titanrtx,driver>=470,driver<471 brand=tesla,driver>=510,driver<511 brand=unknown,driver>=510,    driver<511 brand=nvidia,driver>=510,driver<511 brand=nvidiartx,driver>=510,driver<511 brand=geforce,     driver>=510,driver<511 brand=geforcertx,driver>=510,driver<511 brand=quadro,driver>=510,driver<511     brand=quadrortx,driver>=510,driver<511 brand=titan,driver>=510,driver<511 brand=titanrtx,driver>=510,    driver<511 brand=tesla,driver>=515,driver<516 brand=unknown,driver>=515,driver<516 brand=nvidia,driver>=515,    driver<516 brand=nvidiartx,driver>=515,driver<516 brand=geforce,driver>=515,driver<516 brand=geforcertx,    driver>=515,driver<516 brand=quadro,driver>=515,driver<516 brand=quadrortx,driver>=515,driver<516 brand=titan,    driver>=515,driver<516 brand=titanrtx,driver>=515,driver<516 brand=tesla,driver>=525,driver<526 brand=unknown,    driver>=525,driver<526 brand=nvidia,driver>=525,driver<526 brand=nvidiartx,driver>=525,driver<526 brand=geforce,    driver>=525,driver<526 brand=geforcertx,driver>=525,driver<526 brand=quadro,driver>=525,driver<526 brand=quadrortx,    driver>=525,driver<526 brand=titan,driver>=525,driver<526 brand=titanrtx,driver>=525,driver<526'), ('PULSE_SERVER', 'unix:/run/user/1001/pulse/native'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('NVIDIA_DRIVER_CAPABILITIES', 'compute,graphics,utility'), ('TERM', 'xterm'), ('NV_CUDA_CUDART_VERSION', '12.1.105-1'), ('ROS_LOCALHOST_ONLY', '0'), ('QT_X11_NO_MITSHM', '1'), ('PATH', '/opt/ros/humble/bin:/usr/local/nvidia/bin:/usr/local/cuda/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('NVARCH', 'x86_64'), ('DISPLAY', ':1'), ('LANG', 'C.UTF-8'), ('XAUTHORITY', '/tmp/.docker.xauth'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/yurs/ros2_ws/install/cpp_pubsub:/home/yurs/ros2_ws/install/my_package:/opt/ros/humble'), ('DEBIAN_FRONTEND', 'noninteractive'), ('PWD', '/home/yurs/ros2_ws/build/cpp_pubsub'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('NVIDIA_VISIBLE_DEVICES', 'all'), ('HISTFILE', '/home/yurs/.bash_history'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/yurs/ros2_ws/install/cpp_pubsub:/home/yurs/ros2_ws/install/my_package:/opt/ros/humble')]), 'shell': False}
+[19.444150] (cpp_pubsub) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[19.444266] (cpp_pubsub) StdoutLine: {'line': b'-- Installing: /home/yurs/ros2_ws/install/cpp_pubsub/lib/cpp_pubsub/talker\n'}
+[19.450289] (cpp_pubsub) StdoutLine: {'line': b'-- Set runtime path of "/home/yurs/ros2_ws/install/cpp_pubsub/lib/cpp_pubsub/talker" to ""\n'}
+[19.450416] (cpp_pubsub) StdoutLine: {'line': b'-- Installing: /home/yurs/ros2_ws/install/cpp_pubsub/lib/cpp_pubsub/listener\n'}
+[19.452885] (cpp_pubsub) StdoutLine: {'line': b'-- Set runtime path of "/home/yurs/ros2_ws/install/cpp_pubsub/lib/cpp_pubsub/listener" to ""\n'}
+[19.452999] (cpp_pubsub) StdoutLine: {'line': b'-- Installing: /home/yurs/ros2_ws/install/cpp_pubsub/share/ament_index/resource_index/package_run_dependencies/cpp_pubsub\n'}
+[19.453096] (cpp_pubsub) StdoutLine: {'line': b'-- Installing: /home/yurs/ros2_ws/install/cpp_pubsub/share/ament_index/resource_index/parent_prefix_path/cpp_pubsub\n'}
+[19.453243] (cpp_pubsub) StdoutLine: {'line': b'-- Up-to-date: /home/yurs/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/environment/ament_prefix_path.sh\n'}
+[19.453324] (cpp_pubsub) StdoutLine: {'line': b'-- Installing: /home/yurs/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/environment/ament_prefix_path.dsv\n'}
+[19.453416] (cpp_pubsub) StdoutLine: {'line': b'-- Up-to-date: /home/yurs/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/environment/path.sh\n'}
+[19.453492] (cpp_pubsub) StdoutLine: {'line': b'-- Installing: /home/yurs/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/environment/path.dsv\n'}
+[19.453595] (cpp_pubsub) StdoutLine: {'line': b'-- Up-to-date: /home/yurs/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/local_setup.bash\n'}
+[19.453674] (cpp_pubsub) StdoutLine: {'line': b'-- Up-to-date: /home/yurs/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/local_setup.sh\n'}
+[19.453716] (cpp_pubsub) StdoutLine: {'line': b'-- Up-to-date: /home/yurs/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/local_setup.zsh\n'}
+[19.453777] (cpp_pubsub) StdoutLine: {'line': b'-- Installing: /home/yurs/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/local_setup.dsv\n'}
+[19.453860] (cpp_pubsub) StdoutLine: {'line': b'-- Installing: /home/yurs/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/package.dsv\n'}
+[19.453999] (cpp_pubsub) StdoutLine: {'line': b'-- Up-to-date: /home/yurs/ros2_ws/install/cpp_pubsub/share/ament_index/resource_index/packages/cpp_pubsub\n'}
+[19.454056] (cpp_pubsub) StdoutLine: {'line': b'-- Up-to-date: /home/yurs/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/cmake/cpp_pubsubConfig.cmake\n'}
+[19.454114] (cpp_pubsub) StdoutLine: {'line': b'-- Up-to-date: /home/yurs/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/cmake/cpp_pubsubConfig-version.cmake\n'}
+[19.454174] (cpp_pubsub) StdoutLine: {'line': b'-- Installing: /home/yurs/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/package.xml\n'}
+[19.455591] (cpp_pubsub) CommandEnded: {'returncode': 0}
+[19.462593] (-) TimerEvent: {}
+[19.526112] (cpp_pubsub) JobEnded: {'identifier': 'cpp_pubsub', 'rc': 0}
+[19.526731] (-) EventReactorShutdown: {}

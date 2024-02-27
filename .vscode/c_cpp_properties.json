@@ -1,0 +1,20 @@
+{
+    "configurations": [
+      {
+        "name": "Linux",
+        "includePath": ["${workspaceFolder}/**", 
+                        "/opt/ros/humble/include/**",
+                        "/opt/ros/humble/lib/**",
+                        "/usr/include/**",
+                        "${AMENT_PREFIX_PATH}/include/**",
+                        "/opt/openrobots/include/**"
+                    ],
+        "defines": [],
+        "compilerPath": "/usr/bin/gcc",
+        "cStandard": "c11",
+        "cppStandard": "c++17",
+        "intelliSenseMode": "clang-x64"
+      }
+    ],
+    "version": 4
+  }

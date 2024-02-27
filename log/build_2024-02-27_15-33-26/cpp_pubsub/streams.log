@@ -1,0 +1,89 @@
+[0.058s] Invoking command in '/home/yurs/ros2_ws/build/cpp_pubsub': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/yurs/ros2_ws/src/cpp_pubsub -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/yurs/ros2_ws/install/cpp_pubsub
+[0.069s] -- Found ament_cmake: 1.3.7 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.113s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+[0.162s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.167s] -- Found rclcpp: 16.0.8 (/opt/ros/humble/share/rclcpp/cmake)
+[0.187s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.189s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.193s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.201s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.212s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.257s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.258s] -- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.372s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.482s] -- pinocchio FOUND. pinocchio at /opt/ros/humble/lib/x86_64-linux-gnu/libpinocchio.so
+[0.483s] -- boost_filesystem FOUND. boost_filesystem at /lib/x86_64-linux-gnu/libboost_filesystem.so
+[0.483s] -- boost_serialization FOUND. boost_serialization at /lib/x86_64-linux-gnu/libboost_serialization.so
+[0.483s] -- boost_system FOUND. boost_system at /lib/x86_64-linux-gnu/libboost_system.so
+[0.493s] -- Found Boost: /usr/include (found version "1.74.0") found components: filesystem serialization system 
+[0.494s] -- eigenpy FOUND. eigenpy at /opt/ros/humble/lib/x86_64-linux-gnu/libeigenpy.so
+[0.720s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter Development.Module NumPy 
+[0.721s] -- PythonLibraryDirs: 
+[0.721s] -- PythonLibVersionString: 3.10.12
+[0.743s] -- Python site lib: lib/python3.10/dist-packages
+[0.743s] -- Python include dirs: /usr/include/python3.10
+[0.765s] -- Checking for NumPy
+[0.841s] --   NUMPY_INCLUDE_DIRS=/usr/lib/python3/dist-packages/numpy/core/include
+[0.924s] --   NUMPY_VERSION=1.21.5
+[0.924s] -- NumPy include dir: /usr/lib/python3/dist-packages/numpy/core/include
+[0.928s] [33mCMake Warning at /usr/share/cmake-3.22/Modules/FindBoost.cmake:2201 (message):
+[0.928s]   No header defined for python310; skipping header check (note: header-only
+[0.928s]   libraries have no designated component)
+[0.928s] Call Stack (most recent call first):
+[0.928s]   /opt/ros/humble/lib/x86_64-linux-gnu/cmake/eigenpy/boost.cmake:144 (find_package)
+[0.928s]   /opt/ros/humble/lib/x86_64-linux-gnu/cmake/eigenpy/eigenpyConfig.cmake:149 (SEARCH_FOR_BOOST_PYTHON)
+[0.928s]   /usr/share/cmake-3.22/Modules/CMakeFindDependencyMacro.cmake:47 (find_package)
+[0.928s]   /opt/ros/humble/lib/x86_64-linux-gnu/cmake/pinocchio/pinocchioConfig.cmake:160 (find_dependency)
+[0.928s]   CMakeLists.txt:12 (find_package)
+[0.928s] 
+[0.928s] [0m
+[0.928s] -- Found Boost: /usr/include (found version "1.74.0") found components: python310 
+[0.928s] -- Boost_PYTHON_LIBRARY: /usr/lib/x86_64-linux-gnu/libboost_python310.so
+[1.157s] -- Default C++ standard: 201703
+[1.157s] -- C++ standard sufficient: Minimal required 11, currently defined: 17
+[1.157s] -- CMAKE_CXX_STANDARD was not set: automatically set to currently defined standard 17
+[1.158s] -- hpp-fcl FOUND. hpp-fcl at /opt/ros/humble/lib/x86_64-linux-gnu/libhpp-fcl.so
+[1.163s] -- Found Boost: /usr/include (found version "1.74.0") found components: chrono serialization 
+[1.164s] -- C++ standard sufficient: Minimal required 11, currently defined: 17
+[1.165s] -- C++ standard sufficient: Minimal required 11, currently defined: 17
+[1.165s] -- Found ament_lint_auto: 0.12.10 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.218s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.218s] -- Configured cppcheck include dirs: 
+[1.218s] -- Configured cppcheck exclude dirs and/or files: 
+[1.219s] -- Added test 'lint_cmake' to check CMake code style
+[1.219s] -- Added test 'uncrustify' to check C / C++ code style
+[1.219s] -- Configured uncrustify additional arguments: 
+[1.220s] -- Added test 'xmllint' to check XML markup files
+[1.221s] -- Configuring done
+[1.232s] -- Generating done
+[1.234s] -- Build files have been written to: /home/yurs/ros2_ws/build/cpp_pubsub
+[1.241s] Invoked command in '/home/yurs/ros2_ws/build/cpp_pubsub' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/yurs/ros2_ws/src/cpp_pubsub -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/yurs/ros2_ws/install/cpp_pubsub
+[1.242s] Invoking command in '/home/yurs/ros2_ws/build/cpp_pubsub': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/yurs/ros2_ws/build/cpp_pubsub --clean-first -- -j8 -l8
+[1.319s] [ 50%] [32mBuilding CXX object CMakeFiles/listener.dir/src/subscriber_member_function.cpp.o[0m
+[1.319s] [ 50%] [32mBuilding CXX object CMakeFiles/talker.dir/src/publisher_member_function.cpp.o[0m
+[7.626s] [ 75%] [32m[1mLinking CXX executable listener[0m
+[7.976s] [ 75%] Built target listener
+[21.956s] [100%] [32m[1mLinking CXX executable talker[0m
+[22.672s] [100%] Built target talker
+[22.680s] Invoked command in '/home/yurs/ros2_ws/build/cpp_pubsub' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/yurs/ros2_ws/build/cpp_pubsub --clean-first -- -j8 -l8
+[22.700s] Invoking command in '/home/yurs/ros2_ws/build/cpp_pubsub': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/yurs/ros2_ws/build/cpp_pubsub
+[22.705s] -- Install configuration: ""
+[22.705s] -- Execute custom install script
+[22.705s] -- Symlinking: /home/yurs/ros2_ws/install/cpp_pubsub/lib/cpp_pubsub/talker
+[22.713s] -- Symlinking: /home/yurs/ros2_ws/install/cpp_pubsub/lib/cpp_pubsub/listener
+[22.721s] -- Symlinking: /home/yurs/ros2_ws/install/cpp_pubsub/share/ament_index/resource_index/package_run_dependencies/cpp_pubsub
+[22.729s] -- Symlinking: /home/yurs/ros2_ws/install/cpp_pubsub/share/ament_index/resource_index/parent_prefix_path/cpp_pubsub
+[22.737s] -- Symlinking: /home/yurs/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/environment/ament_prefix_path.sh
+[22.744s] -- Symlinking: /home/yurs/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/environment/ament_prefix_path.dsv
+[22.751s] -- Symlinking: /home/yurs/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/environment/path.sh
+[22.757s] -- Symlinking: /home/yurs/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/environment/path.dsv
+[22.765s] -- Symlinking: /home/yurs/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/local_setup.bash
+[22.771s] -- Symlinking: /home/yurs/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/local_setup.sh
+[22.777s] -- Symlinking: /home/yurs/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/local_setup.zsh
+[22.784s] -- Symlinking: /home/yurs/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/local_setup.dsv
+[22.789s] -- Symlinking: /home/yurs/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/package.dsv
+[22.796s] -- Symlinking: /home/yurs/ros2_ws/install/cpp_pubsub/share/ament_index/resource_index/packages/cpp_pubsub
+[22.802s] -- Symlinking: /home/yurs/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/cmake/cpp_pubsubConfig.cmake
+[22.810s] -- Symlinking: /home/yurs/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/cmake/cpp_pubsubConfig-version.cmake
+[22.816s] -- Symlinking: /home/yurs/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/package.xml
+[22.823s] Invoked command in '/home/yurs/ros2_ws/build/cpp_pubsub' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/yurs/ros2_ws/build/cpp_pubsub
